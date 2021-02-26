@@ -9,10 +9,74 @@
   },
   {
     "petId": 1,
+    "name": "Ravan",
+    "about": "A husky is a sled dog used in the polar regions. One can differentiate huskies from other dog types by their fast pulling-style. They represent an ever-changing crossbreed of the fastest dogs[1] (the Alaskan Malamute, by contrast, pulled heavier loads at a slower speed).[2] Humans use huskies in sled-dog racing. Various companies have marketed tourist treks with dog sledges for adventure travelers in snow regions.[3] Huskies are also kept as pets, and groups work to find new pet homes for retired racing and adventure-trekking dogs",
+    "gender": "Female",
+    "breed": "Husky",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Woody_Puppy.jpg/768px-Woody_Puppy.jpg"
+  },
+  {
+    "petId": 2,
+    "name": "Sara",
+    "about": "Pit Bull Terrier (APBT) is a dog breed recognized by the United Kennel Club (UKC)[1] and the American Dog Breeders Association (ADBA),[2] but not the American Kennel Club (AKC).[3] It is a medium-sized, intelligent, short-haired dog, of a solid build, whose early ancestors came from the British Isles. When compared with the English Staffordshire Bull Terrier, the American Pit Bull Terrier is larger by margins of 6–8 inches (15–20 cm) in height and 25–35 pounds (11–16 kg) in weight. The American Pit Bull Terrier varies in size: males are normally about 18–21 inches (45–53 cm) in height and around 35–60 pounds (15–27 kg) in weight, while females are normally around 17–20 inches (43–50 cm) in height and 30–50 pounds (13–22 kg) in weight.",
+    "gender": "Female",
+    "breed": "Pit Bull Terrier",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Pit_Bull_Red_Nose-Tyson.JPG"
+  },
+  {
+    "petId": 3,
+    "name": "Bailey",
+    "about": "The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl, such as ducks and upland game birds, during hunting and shooting parties.[3] The name \"retriever\" refers to the breed's ability to retrieve shot game undamaged due to their soft mouth. Golden retrievers have an instinctive love of water, and are easy to train to basic or advanced obedience standards. They are a long-coated breed, with a dense inner coat that provides them with adequate warmth in the outdoors, and an outer coat that lies flat against their bodies and repels water.",
+    "gender": "Male",
+    "breed": "Golden Retriever",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/4_months_old_white_golden_retriever.JPG/1024px-4_months_old_white_golden_retriever.JPG"
+  },
+  {
+    "petId": 4,
+    "name": "Polly",
+    "about": "The Labrador Retriever, often abbreviated to Labrador, is a breed of retriever-gun dog from the United Kingdom that was developed from imported Canadian fishing dogs. The Labrador is one of the most popular dog breeds in a number of countries in the world, particularly in the Western world.",
+    "gender": "Female",
+    "breed": "Labrador Retriever",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Friendly_Labrador%2C_Ontario%2C_Canada%2C_8_October%2C_2018.jpg/891px-Friendly_Labrador%2C_Ontario%2C_Canada%2C_8_October%2C_2018.jpg"
+  },
+  {
+    "petId": 5,
+    "name": "Eenie",
+    "about": "Chihuahuas are the smallest breed recognized by some kennel clubs.[6]\n\nThere are two varieties of Chihuahua – the Smooth Coat (smooth-haired) and the Long Coat (long-haired). The Kennel Club considers the two to be distinct breeds; mating between the two are not eligible for KC registration",
+    "gender": "Male",
+    "breed": "Chihuahua",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Standard_razza_chihuahua.jpg/1080px-Standard_razza_chihuahua.jpg"
+  },
+  {
+    "petId": 6,
     "name": "Shaggy",
     "about": "The beagle is a breed of small hound that is similar in appearance to the much larger foxhound. The beagle is a scent hound, developed primarily for hunting hare (beagling). Possessing a great sense of smell and superior tracking instincts, the beagle is the primary breed used as detection dogs for prohibited agricultural imports and foodstuffs in quarantine around the world. The beagle is intelligent. It is a popular pet due to its size, good temper, and a lack of inherited health problems.",
     "gender": "Female",
     "breed": "Beagle",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Beagle_Upsy.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/BeagleNiniJule.jpg"
+  },
+  {
+    "petId": 7,
+    "name": "Zack",
+    "about": "The Artois Hound is a rare breed of dog, and a descendant of the Bloodhound. A scent hound 22–23 inches high at the withers, weighing anything between 55 and 65 pounds, it is a well constructed dog with a slow graceful gait. It has a large, strong head, a medium-length back and a pointed tail that tends to be long and sickle-shaped. Their ears are set at eye level; they have large prominent eyes and quite thick lips",
+    "gender": "Male",
+    "breed": "Hound",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Artois_puppy.jpg"
+  },
+  {
+    "petId": 8,
+    "name": "King Peppe",
+    "about": "The pug is a breed of dog with physically distinctive features of a wrinkly, short-muzzled face, and curled tail. The breed has a fine, glossy coat that comes in a variety of colours, most often light brown (fawn) or black, and a compact, square body with well-developed muscles.",
+    "gender": "Male",
+    "breed": "Pug",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Black_pug_puppy.png/831px-Black_pug_puppy.png"
+  },
+  {
+    "petId": 9,
+    "name": "Layla",
+    "about": "A mongrel, mutt or mixed-breed dog is a dog that does not belong to one officially recognized breed and is not the result of intentional breeding. Estimates place their numbers at 150 million animals worldwide. [1] Although the term \"mixed-breed dog\" is preferred by some, many mongrels have no known purebred ancestors. Technically, crossbreed dogs, and \"designer dogs\" while also a mix of breeds, differ from mongrels in being intentionally bred. Although mongrels are viewed as of less commercial value than intentionally bred dogs, they are thought to be less susceptible to genetic health problems associated with inbreeding (based on the theory of heterosis), and have enthusiasts and defenders who prefer them to intentionally bred dogs.",
+    "gender": "Female",
+    "breed": "Mixed Breed",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/A_small_mongrel.jpg/1280px-A_small_mongrel.jpg"
   }
 ]

@@ -2,10 +2,10 @@ package com.example.androiddevchallenge
 
 import android.app.Application
 import android.content.res.AssetManager
-import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+import androidx.lifecycle.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 
@@ -27,13 +27,15 @@ class PetViewModel(
     }
 
     init {
-        _pets.value = listOf(Pet())
+        viewModelScope.launch {
+            val pets = withContext(Dispatchers.IO) {
+                val string = assetsManager.open("pets.json").use {
+                    it.reader().readText()
+                }
+                Json.decodeFromString<List<Pet>>(string)
+            }
 
-        val string = assetsManager.open("pets.json").use {
-            it.reader().readText()
+            _pets.value = pets
         }
-
-        val pets = Json.decodeFromString<List<Pet>>(string)
-        _pets.value = pets
     }
 }
