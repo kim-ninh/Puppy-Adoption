@@ -31,7 +31,6 @@ import androidx.navigation.compose.navigate
 import androidx.navigation.compose.rememberNavController
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
-
 class MainActivity : AppCompatActivity() {
     private val viewModel: PetViewModel by viewModels<PetViewModel> {
         ViewModelProvider.AndroidViewModelFactory(application)
